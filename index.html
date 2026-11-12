@@ -1,1 +1,191 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>張勝雄電子名片</title><link rel="manifest" href="manifest.json"></head><body style="font-family:Arial;text-align:center;max-width:700px;margin:auto;padding:20px;"> <img src="photo.jpg" style="width:220px;border-radius:12px;"><h1>張勝雄</h1><p>淡江大學運輸管理學系</p><p>教授（退休）</p><p><a href="tel:0910210959">0910-210-959</a></p><p><a href="mailto:shchang48@gmail.com">shchang48@gmail.com</a></p><p><a href="https://line.me/R/ti/p/~shchang48">加入LINE好友</a></p><p><a href="contact.vcf" download>下載電子名片VCF</a></p></body></html>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>張勝雄 教授電子名片</title>
+
+<link rel="manifest" href="manifest.json">
+
+<style>
+body{
+    font-family:"Microsoft JhengHei","Noto Sans TC",sans-serif;
+    margin:0;
+    padding:20px;
+    background:#f5f7fa;
+    text-align:center;
+    color:#333;
+}
+
+.card{
+    max-width:700px;
+    margin:auto;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 4px 20px rgba(0,0,0,0.1);
+}
+
+.photo{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #1976d2;
+}
+
+.name{
+    font-size:42px;
+    font-weight:bold;
+    margin-top:20px;
+    color:#0d47a1;
+}
+
+.affiliation{
+    font-size:28px;
+    margin-top:15px;
+    line-height:1.6;
+}
+
+.title{
+    font-size:28px;
+    margin-top:10px;
+    color:#555;
+}
+
+.contact{
+    font-size:26px;
+    margin-top:15px;
+    line-height:1.8;
+}
+
+.qrcode{
+    width:280px;
+    max-width:90%;
+    margin-top:25px;
+}
+
+.btn{
+    display:block;
+    width:90%;
+    max-width:500px;
+    margin:18px auto;
+    padding:18px;
+    font-size:26px;
+    font-weight:bold;
+    text-decoration:none;
+    border-radius:12px;
+    color:white;
+    transition:.3s;
+    box-sizing:border-box;
+}
+
+.contact-btn{
+    background:#1976d2;
+}
+
+.line-btn{
+    background:#06c755;
+}
+
+.vcf-btn{
+    background:#ff9800;
+}
+
+.btn:hover{
+    opacity:0.9;
+}
+
+.footer{
+    margin-top:25px;
+    font-size:20px;
+    color:#777;
+}
+
+@media (max-width:768px){
+
+    .photo{
+        width:200px;
+        height:200px;
+    }
+
+    .name{
+        font-size:36px;
+    }
+
+    .affiliation{
+        font-size:24px;
+    }
+
+    .title{
+        font-size:24px;
+    }
+
+    .contact{
+        font-size:22px;
+    }
+
+    .btn{
+        font-size:22px;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<div class="card">
+
+<img src="photo.jpg" class="photo" alt="張勝雄">
+
+<div class="name">
+張勝雄
+</div>
+
+<div class="affiliation">
+淡江大學運輸管理學系
+</div>
+
+<div class="title">
+退休教授
+</div>
+
+<div class="contact">
+📱 0910-210-959
+</div>
+
+<div class="contact">
+✉ shchang48@gmail.com
+</div>
+
+<img src="qrcode.png"
+     class="qrcode"
+     alt="QR Code">
+
+<a class="btn contact-btn"
+   href="contact.vcf"
+   download>
+📥 加入手機聯絡人
+</a>
+
+<a class="btn line-btn"
+href="https://line.me/R/ti/p/~shchang48"
+target="_blank">
+💬 加入 LINE
+</a>
+
+<a class="btn vcf-btn"
+href="contact.vcf"
+download>
+💳 下載電子名片
+</a>
+
+<div class="footer">
+Digital Business Card
+</div>
+
+</div>
+
+</body>
+</html>
